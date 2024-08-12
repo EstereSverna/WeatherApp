@@ -1,0 +1,56 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="ClientApp\.gitignore" />
+    <Content Include="ClientApp\build\favicon.ico" />
+    <Content Include="ClientApp\build\index.html" />
+    <Content Include="ClientApp\build\logo192.png" />
+    <Content Include="ClientApp\build\logo512.png" />
+    <Content Include="ClientApp\build\robots.txt" />
+    <Content Include="ClientApp\build\static\css\main.e6c13ad2.css" />
+    <Content Include="ClientApp\build\static\css\main.e6c13ad2.css.map" />
+    <Content Include="ClientApp\build\static\js\453.3e3f540f.chunk.js" />
+    <Content Include="ClientApp\build\static\js\453.3e3f540f.chunk.js.map" />
+    <Content Include="ClientApp\build\static\js\main.9f91a751.js" />
+    <Content Include="ClientApp\build\static\js\main.9f91a751.js.LICENSE.txt" />
+    <Content Include="ClientApp\build\static\js\main.9f91a751.js.map" />
+    <Content Include="ClientApp\public\favicon.ico" />
+    <Content Include="ClientApp\public\index.html" />
+    <Content Include="ClientApp\public\logo192.png" />
+    <Content Include="ClientApp\public\logo512.png" />
+    <Content Include="ClientApp\public\robots.txt" />
+    <Content Include="ClientApp\README.md" />
+    <Content Include="ClientApp\src\App.css" />
+    <Content Include="ClientApp\src\App.js" />
+    <Content Include="ClientApp\src\App.test.js" />
+    <Content Include="ClientApp\src\components\ChartComponent.js" />
+    <Content Include="ClientApp\src\index.css" />
+    <Content Include="ClientApp\src\index.js" />
+    <Content Include="ClientApp\src\logo.svg" />
+    <Content Include="ClientApp\src\reportWebVitals.js" />
+    <Content Include="ClientApp\src\setupTests.js" />
+    <Content Include="ClientApp\src\WeatherData.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.SpaServices.Extensions" Version="6.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.7">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.7" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Migrations\" />
+  </ItemGroup>
+	
+</Project>
